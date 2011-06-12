@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="lib" path="/Users/ykro/Desktop/libs/google-api-client-1.4.1-beta.jar"/>
+	<classpathentry kind="lib" path="/Users/ykro/Desktop/libs/google-api-client-googleapis-1.4.1-beta.jar"/>
+	<classpathentry kind="lib" path="/Users/ykro/Desktop/libs/google-api-translate-java-0.95.jar"/>
+	<classpathentry kind="lib" path="/Users/ykro/Desktop/libs/guava-r09.jar"/>
+	<classpathentry kind="lib" path="/Users/ykro/Desktop/libs/jackson-core-asl-1.6.7.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

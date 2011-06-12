@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Ingrese el texto a traducir"
+	/>
+	<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout1">
+	    <EditText android:id="@+id/etTextToTranslate"
+	    		  android:hint="hola mundo!" 
+	    		  android:layout_width="wrap_content" 
+	    		  android:layout_height="wrap_content"></EditText>
+	    <Button android:text="Traducir" 
+	    		android:id="@+id/btnTranslate" 
+	    		android:layout_width="wrap_content" 
+	    		android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+	<TextView android:id="@+id/txtTranslatedText" 
+			 android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content"
+			 android:textSize="20dp"></TextView>
+	<View
+	    android:layout_height="1dip"
+	    android:layout_width="fill_parent"
+	    android:background="#FFFFFF"	    
+	/>  
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Ingrese texto a buscar en YouTube"
+	/>		 
+	<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout2">
+	    <EditText android:id="@+id/etQueryText" 
+	    		  android:hint="Android sdk"
+	    		  android:layout_width="wrap_content" 
+	    		  android:layout_height="wrap_content"></EditText>
+	    <Button android:text="Buscar" 
+	    		android:id="@+id/btnSearch" 
+	    		android:layout_width="wrap_content" 
+	    		android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+	<ListView android:layout_height="wrap_content"
+			  android:id="@+id/lstVideo" 
+			  android:layout_width="match_parent"></ListView>
+</LinearLayout>
